@@ -4,6 +4,7 @@ namespace GameUnits
     {
         public int AttackPower { get; }
         public int XP { get; private set; }
+        private int health;
         public override int Health 
         {
             get => health;
@@ -11,7 +12,7 @@ namespace GameUnits
         }
         public override float Cost
         {
-            get => attackPower+XP;
+            get => AttackPower+XP;
         }
 
         public MilitaryUnit(int mov, int health, int attackPower) : base(mov, health)
@@ -23,7 +24,7 @@ namespace GameUnits
         public void Attack(Unit u)
         {
             XP++;
-            u.Health -= attackPower;
+            u.Health -= AttackPower;
         }
     }
 }
