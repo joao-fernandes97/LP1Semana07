@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GameUnits", "GameUnits\Game
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Polimorfismo", "Polimorfismo\Polimorfismo.csproj", "{E011080E-65B6-4614-B890-05E5E75E8604}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClassVsStruct", "ClassVsStruct\ClassVsStruct.csproj", "{E532628A-A155-4A23-A44E-51EA052A7591}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -30,5 +32,9 @@ Global
 		{E011080E-65B6-4614-B890-05E5E75E8604}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E011080E-65B6-4614-B890-05E5E75E8604}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E011080E-65B6-4614-B890-05E5E75E8604}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E532628A-A155-4A23-A44E-51EA052A7591}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E532628A-A155-4A23-A44E-51EA052A7591}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E532628A-A155-4A23-A44E-51EA052A7591}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E532628A-A155-4A23-A44E-51EA052A7591}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
