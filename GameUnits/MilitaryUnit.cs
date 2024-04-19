@@ -7,8 +7,8 @@ namespace GameUnits
         private int health;
         public override int Health 
         {
-            get => health;
-            set => health = value + XP;
+            get => health + XP;
+            set => health = value;
         }
         public override float Cost
         {
