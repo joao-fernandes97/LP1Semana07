@@ -12,17 +12,17 @@
     class Character{
         +Name: string
         #Weapons: Weapon[]
-        +Fight(): void
+        +Fight() void
     }
     class Weapon{
         #power: float
     }
     class Gun{
         +Ammo: int
-        +FireGun(): void
+        +FireGun() void
     }
     class Sword{
         +BladeLength: float
-        +AttackWithSword(): void
+        +AttackWithSword() void
     }
 ```
